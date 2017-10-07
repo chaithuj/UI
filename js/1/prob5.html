@@ -1,0 +1,34 @@
+<html>
+<head><title>Embedding Script tag in HTML Document</title>
+</script>
+<script>document.write("<b>Script embedded in Head Tag</b><br>");
+for (i=0;i<=35;i++)
+{
+   document.write("<b>-</b>");
+}
+var headvar=10
+document.write("<br><b>Value stored in variable</b> <i>headvar</i> <b>is </b>"+headvar)
+
+</script>
+<hr>
+</head><b></b>
+<body>
+<script>
+var bodyvar=65
+document.write("<b>Script embedded in body Tag</b><br>")
+for (i=0;i<=35;i++)
+{
+   document.write("<b>-</b>");
+}
+document.write("<br><b>Value stored in variable</b> <i>bodyvar</i> <b>is</b> " +bodyvar)
+
+</script>
+<hr>
+<script src="common.js">
+</script>
+<script>
+document.write("<b>The sum of the variables</b> headvar <b>and</b> bodyvar <b>is</b>"+addno(headvar,bodyvar));
+</script>
+<hr>
+</body>
+</html>

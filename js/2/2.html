@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>calculate compund interest</title>
+</head>
+<body>
+<script>
+document.write("------------------------------------------------------------------")
+document.write("<br>***********Calculate Compund Interest**********")
+document.write("<br>------------------------------------------------------------------")
+var priniciple=1000;
+var rate=10;
+var period=1;
+var ci = priniciple*Math.pow((1+rate/100), period)-1000;
+document.write("<br>Priniciple - "+priniciple)
+document.write("&nbsp;rs")
+document.write("<br>Rate of Interest - "+rate)
+document.write("&nbsp;%")
+document.write("<br>Period - "+period)
+document.write("&nbsp;ys")
+document.write("<br>Comp Interest - "+ci)
+</script>
+</body>
+</html>
