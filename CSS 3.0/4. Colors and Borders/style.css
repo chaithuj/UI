@@ -1,0 +1,8 @@
+img[width] 
+{ border: 3px solid red; }
+
+img[src="image2.jpg"] 
+{ border: 10px solid green; }
+
+img[src="image3.jpg"] 
+{ border: 10p}
